@@ -1,0 +1,5 @@
+{
+  "name": "Incident Response Playbook Assistant",
+  "description": "An AI-powered assistant, embedded directly within a mock security platform, that guides Tier 1 analysts step-by-step through responding to complex alerts. The tool suggests next steps based on best-practice playbooks, asks clarifying questions, and adapts the workflow based on the analyst's findings.",
+  "requestFramePermissions": []
+}

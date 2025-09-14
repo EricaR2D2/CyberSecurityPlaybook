@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Incident Response Playbook Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'aw-dark': '#101827',
+              'aw-deep-blue': '#1a2333',
+              'aw-medium-blue': '#2d3748',
+              'aw-light-blue': '#4a5568',
+              'aw-accent': '#00a9e0',
+              'aw-text-primary': '#e2e8f0',
+              'aw-text-secondary': '#a0aec0',
+              'aw-success': '#48bb78',
+              'aw-warning': '#f6ad55',
+              'aw-danger': '#f56565',
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-aw-dark text-aw-text-primary">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
